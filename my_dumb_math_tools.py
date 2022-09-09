@@ -27,7 +27,7 @@ def mul(a, b):
 
 def random_number_generator(arg1, arg2):
     """
-    Random number generator in the 0-1 range.
+    Summary: Random number generator in the 0-1 range.
 
     This is an example function which generates a random number between 0 and 1 from a given seed 
     computed from to input arguments (arg1, arg2). The seed is computed as (arg1+arg2)*(arg1+arg2)
