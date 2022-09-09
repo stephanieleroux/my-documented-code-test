@@ -15,6 +15,8 @@ import sys
 sys.path.insert(0, os.path.abspath('../..'))
 sys.path.append(os.path.abspath('..'))
 
+autodoc_mock_imports = ['numpy']
+autodoc_mock_imports = ['random']
 
 # -- Project information -----------------------------------------------------
 
@@ -37,8 +39,6 @@ extensions = [
 ]
 napoleon_google_docstring = False
 
-autodoc_mock_imports = ['numpy']
-autodoc_mock_imports = ['random']
 
 
 # Add any paths that contain templates here, relative to this directory.
