@@ -1,0 +1,21 @@
+python package
+==============
+
+Submodules
+----------
+
+python.my\_dumb\_math\_tools module
+-----------------------------------
+
+.. automodule:: python.my_dumb_math_tools
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: python
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -9,6 +9,7 @@ import random as rd
 print("This is a collection of math tools i often use.")
 
 def main():
+    """Example application: compute ((a+b)*2) where a=3, b=5."""
     msg = "Example application: compute ((a+b)*2) where a=3, b=5:"
     print(msg)
     print('RESULT:')
@@ -18,30 +19,59 @@ def main():
 
 
 def add(a, b):
-    """Add two numbers and return the result."""
+    """Add two numbers and return the result.
+
+    Parameters
+    ----------
+    arg1 : float
+        First number to sum.
+    arg2 : float
+        Second number to sum.
+
+    Returns
+    -------
+    float
+        Addition of the two numbers.
+
+    """
     return a + b
 
 def mul(a, b):
-    """Multiply two numbers and return the result."""
+    """Multiply two numbers and return the result.
+    
+    Parameters
+    ----------
+    arg1 : float
+        First number to multiply.
+    arg2 : float
+        Second number to multiply.
+
+    Returns
+    -------
+    float
+        Multiplication of the two numbers.
+
+    """
     return a * b
+
 
 def random_number_generator(arg1, arg2):
     """
-    Summary: Random number generator in the 0-1 range.
+    Random number generator in the 0-1 range.
 
     This is an example function which generates a random number between 0 and 1 from a given seed 
     computed from to input arguments (arg1, arg2). The seed is computed as (arg1+arg2)*(arg1+arg2)
 
     Parameters
     ----------
-    arg1 : int
+    arg1 : float
         argument 1 from which computing the seed for the random generator.
-    arg2 : int
+    arg2 : float
         argument 2 from which computing the seed for the random generator.
 
     Returns
     -------
-    int
+    float
         Random number between 0 and 1.
 
     """
