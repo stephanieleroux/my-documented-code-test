@@ -12,10 +12,9 @@
 #
 import os
 import sys
-#sys.path.insert(0, os.path.abspath('../my_dumb_math_tools/'))
-sys.path.insert(0, os.path.abspath('../../my_dumb_math_tools/'))
-#sys.path.insert(0, os.path.abspath('.'))
-#sys.path.insert(0, os.path.abspath('../..'))
+#sys.path.insert(0, os.path.abspath('../../my_dumb_math_tools/'))
+sys.path.append(os.path.abspath('../..'))
+sys.path.append(os.path.abspath('..'))
 
 autodoc_mock_imports = ['numpy']
 
@@ -39,6 +38,7 @@ master_doc = 'index'
 #    'sphinx.ext.autodoc'
 #]
 extensions = [
+    'sphinx.ext.autodoc',
     'sphinx.ext.napoleon'
 ]
 napoleon_google_docstring = False
