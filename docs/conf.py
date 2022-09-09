@@ -37,6 +37,10 @@ extensions = [
 ]
 napoleon_google_docstring = False
 
+autodoc_mock_imports = ['numpy']
+autodoc_mock_imports = ['random']
+
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
