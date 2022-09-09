@@ -1,5 +1,5 @@
-my-documented-code-test
-=======================
+my_dumb_math_tools
+==================
 
 .. toctree::
    :maxdepth: 4
