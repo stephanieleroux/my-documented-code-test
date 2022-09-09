@@ -1,0 +1,10 @@
+my\-documented\-code\-test.my\_dumb\_math\_tools package
+========================================================
+
+Module contents
+---------------
+
+.. automodule:: my-documented-code-test.my_dumb_math_tools
+   :members:
+   :undoc-members:
+   :show-inheritance:
