@@ -13,10 +13,11 @@
 import os
 import sys
 #sys.path.insert(0, os.path.abspath('../my_dumb_math_tools/'))
-#sys.path.insert(0, os.path.abspath('../../my_dumb_math_tools/'))
-sys.path.insert(0, os.path.abspath('..'))
-sys.path.insert(0, os.path.abspath('../..'))
-autodoc_mock_imports = ['numpy,random']
+sys.path.insert(0, os.path.abspath('../../my_dumb_math_tools/'))
+#sys.path.insert(0, os.path.abspath('.'))
+#sys.path.insert(0, os.path.abspath('../..'))
+
+autodoc_mock_imports = ['numpy']
 
 # -- Project information -----------------------------------------------------
 
