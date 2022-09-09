@@ -25,6 +25,7 @@ author = 'stephanie'
 # The full version, including alpha/beta/rc tags
 release = 'v0'
 
+master_doc = 'contents'
 
 # -- General configuration ---------------------------------------------------
 
