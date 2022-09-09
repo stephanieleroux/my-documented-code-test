@@ -8,6 +8,9 @@ import random as rd
 
 print("This is a collection of math tools i often use.")
 
+def __init__():
+    param=3.14
+
 def main():
     """Example application: compute ((a+b)*2) where a=3, b=5."""
     msg = "Example application: compute ((a+b)*2) where a=3, b=5:"
