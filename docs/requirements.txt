@@ -1,3 +1,0 @@
-numpy
-random
-sphinx==4.2.0

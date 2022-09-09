@@ -12,13 +12,8 @@
 #
 import os
 import sys
-#sys.path.insert(0, os.path.abspath("."))
-#sys.path.insert(0, os.path.abspath("../"))
-#sys.path.insert(1, os.path.dirname(os.path.abspath("../")) + os.sep + "feature_engine")
-
-
-sys.path.insert(0, os.path.abspath('../my_dumb_math_tools/'))
-###sys.path.insert(0, os.path.abspath('../'))
+#sys.path.insert(0, os.path.abspath('../my_dumb_math_tools/'))
+sys.path.insert(0, os.path.abspath('../..'))
 
 autodoc_mock_imports = ['numpy,random']
 
@@ -29,7 +24,7 @@ copyright = '2022, stephanie'
 author = 'stephanie'
 
 # The full version, including alpha/beta/rc tags
-release = 'v0'
+release = '0.0'
 
 master_doc = 'index'
 
