@@ -13,7 +13,7 @@ Welcome to my_dumb_math_tools's documentation!
    introduction
    getting_started
    anotherpage
-   my_dumb_math_tools
+   modules
 
 
 Indices and tables

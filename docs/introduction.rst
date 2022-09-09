@@ -10,7 +10,7 @@ This is also an example code to test the automatic building of a code documentat
 
 RST format
 ***********
-These pages have to be written in rst format. See here for a summary of the syntax: <https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html#headings>_  It is very close from markdown format.
+These pages have to be written in `rst format <https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html#headings>`_,  which is very close from markdown format.
 
 
 Another section
@@ -26,7 +26,7 @@ You can put code blocks in those pages:
 You can add lists:
 
 - one think
--second thing
+- second thing
 
 
 Or numbered lists:
