@@ -1,5 +1,5 @@
-mathtools
-=========
+dummypackage
+============
 
 .. toctree::
    :maxdepth: 4
