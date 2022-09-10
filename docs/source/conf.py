@@ -13,8 +13,8 @@
 import os
 import sys
 #sys.path.insert(0, os.path.abspath('../../my_dumb_math_tools/'))
-sys.path.append(os.path.abspath('../../'))
-sys.path.append(os.path.abspath('../'))
+sys.path.append(os.path.abspath('../../mathtools/'))
+#sys.path.append(os.path.abspath('../'))
 
 autodoc_mock_imports = ['numpy']
 
@@ -60,7 +60,7 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 #html_theme = 'classic'
-#html_theme = 'sphinx_rtd_theme'
+html_theme = 'sphinx_rtd_theme'
 
 
 # Add any paths that contain custom static files (such as style sheets) here,

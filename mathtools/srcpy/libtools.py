@@ -5,7 +5,8 @@ This is also an example code to test the automatic building of a code documentat
 
 import numpy as np
 import random as rd
-import my_dumb_math_tools 
+
+
 print(f"Name: {__name__}")
 print(f"Package: {__package__}")
 
