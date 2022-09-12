@@ -22,7 +22,7 @@ sphinx:
    fail_on_warning: true
 
 # Optionally build your docs in additional formats such as PDF
-formats: all
+formats: html
 
 # Optionally declare the Python requirements required to build your docs
 python:
