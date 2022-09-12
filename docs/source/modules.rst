@@ -1,5 +1,5 @@
-dummypackage
-============
+Dummypackage docstrings
+=========================
 
 .. toctree::
    :maxdepth: 4

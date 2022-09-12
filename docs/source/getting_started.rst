@@ -1,5 +1,5 @@
-Getting started
-##########################
+Getting started with dummypackage
+###################################
 
 If you want to use this code: you should do this:
 
