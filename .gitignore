@@ -1,0 +1,4 @@
+.DS_Store
+./docs/source/build/
+./dummypackage/__pycache__/
+./dummypackage/srcpy/__pycache__/
