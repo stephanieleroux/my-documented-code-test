@@ -41,6 +41,7 @@ extensions = [
     'sphinx.ext.napoleon',
     'myst_parser'
 ]
+
 napoleon_google_docstring = False
 
 source_suffix = {

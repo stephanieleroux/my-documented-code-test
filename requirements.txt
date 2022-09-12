@@ -1,2 +1,2 @@
 numpy
-sphinx==4.2.0
+sphinx>=4.4.0
