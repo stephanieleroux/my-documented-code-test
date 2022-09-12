@@ -13,6 +13,7 @@ Welcome to my_dumb_math_tools's documentation!
    introduction
    getting_started
    anotherpage
+   build_documentation
    modules
 
 
