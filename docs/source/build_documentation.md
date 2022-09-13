@@ -1,6 +1,9 @@
 # Build the documentation
 
-This  page explains the steps to follow in order to write and publish a documentation about a python code with Reathedocs.
+This  page explains how to write and publish a documentation about a python code with Reathedocs.
+You'll notice that it  is itself built using Readthedocs.
+
+If you don't wish to share your code nor its internal documentation, and you just wish to publish an "external" documentation about it, you can switch to the [simpler tuto](https://my-doc-online.readthedocs.io/en/latest/index.html) corresponding better to your case here.
 
 ---
 ## 0. Starting point: your code 
@@ -32,7 +35,7 @@ In shorts, it contains a collection of tools in `/dummypackage/srcpy/libtools.py
 ### 1.1 Create your account:
 The first thing you then need to do is to create an account on [ReadTheDocs.org](https://readthedocs.org/accounts/signup/). 
 
-There is an [extensive documentation](https://docs.readthedocs.io/en/stable/tutorial/) about what/how you can do with readthedocs. Here we will go through the _basic steps_ to publish the documentation of the `dummypackage` code which already exist on github. Please refer to the above link for further details.
+There is an [extensive documentation](https://docs.readthedocs.io/en/stable/tutorial/) about what/how you can do with readthedocs. Here we will go through the _basic steps_ to publish the documentation of the `dummypackage` code which already exist on github. Please refer to the above link for more advanced needs.
 
 ### 1.2 Connext to your github account
 * From your account on Reathedocs, click on __"Connect your Accounts"__,
@@ -221,7 +224,7 @@ are important so that sphinx knows where your python package is.
 * The extension 'myst_parser' and the `source_suffix` list is not necessary but it can be used to anable markdown format and latex equations within the documentation. `myst_enable_extensions = ["dollarmath", "amsmath"]` is also needed in that case.
 
 ### 2.6 Generate the documentation from your code docstrings
-In the `./docs/` folfer, run: 
+In the `./docs/` folder, run: 
 ```
 sphinx-apidoc -f -o ./source/ ../dummypackage/
 ```
